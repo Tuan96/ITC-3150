@@ -1,0 +1,25 @@
+<?php
+// Tuan Nguyen ITC 3150
+for ($i = 1; $i <= 100; $i++)
+{
+    if ( $i %3 == 0 && $i %5 == 0 )
+    {
+    echo "ThreeFive"."<br>" ;
+    }
+    
+    else if ( $i%3 == 0 ) 
+    {
+     echo "Three"."<br>";
+    }
+    
+    else if ( $i%5 == 0 ) 
+    {
+    echo "Five"."<br>";
+    }
+    
+    else
+    {
+    echo $i."<br>";
+    }
+}
+?>
